@@ -2,14 +2,14 @@
 
 Bem-vindo ao meu portfólio! Aqui você encontrará uma coleção de projetos e trabalhos que desenvolvi ao longo da minha jornada como desenvolvedora. Este portfólio serve como uma vitrine para mostrar minhas habilidades e conquistas no desenvolvimento web e outras áreas.
 
-## 📌 Tecnologias Usadas
+##  Tecnologias Usadas
 
 - **HTML**: Estrutura do site
 - **CSS**: Estilos e design responsivo
 - **JavaScript**: Interatividade e animações
 - **Git & GitHub**: Controle de versão e compartilhamento de código
 
-## 🚀 Como Rodar o Projeto
+##  Como Rodar o Projeto
 
 Para visualizar o meu portfólio localmente, siga os passos abaixo:
 
