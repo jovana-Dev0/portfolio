@@ -1,0 +1,129 @@
+/* Importando fonte futurista */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 100%;
+    min-width: 100px;  /* O logotipo terá pelo menos 200px de largura */
+    height: 240px;
+}
+
+/* Estilos para o header */
+header {
+    width: 100%;  /* Garante que o header ocupe toda a largura */
+    margin: 0;  /* Remove margens */
+    padding: 0;  /* Remove padding */
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #645fa1, #212152);
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Estilizando as seções */
+section {
+    padding: 50px;
+}
+
+/* Estilo para os textos neon */
+.neon-text {
+    font-size: 2em;
+    color: #ff00ff;
+    text-shadow: 0px 0px 10px #ff00ff;
+}
+
+/* Estilizando imagem do perfil */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.foto-perfil:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #ff00ff;
+}
+
+/* Estilo para os botões de contato */
+.redes-sociais li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #ff00ff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.redes-sociais a:hover {
+    color: #00ffff;
+}
+
+/* Partículas ocupando toda a tela */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* Estilizando os links dos repositórios */
+.repos-container a {
+    display: block;
+    color: #f0f0f0; /* Cor clara para melhor visibilidade */
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1); /* Fundo levemente transparente */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito hover (ao passar o mouse) */
+.repos-container a:hover {
+    color: #00ff00; /* Verde brilhante */
+    background: rgba(0, 255, 0, 0.2); /* Fundo levemente esverdeado */
+    transform: scale(1.05); /* Aumenta um pouco o tamanho */
+}
+/* Estilizando a seção Sobre Mim */
+#sobre {
+    text-align: center; /* Centraliza o texto */
+    max-width: 800px; /* Define um limite de largura para não ficar muito espalhado */
+    margin: 50px auto; /* Centraliza na página */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Fundo levemente transparente */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Adiciona um brilho sutil */
+}
+
+/* Estilizando o texto */
+#sobre p {
+    font-size: 18px; /* Tamanho do texto */
+    color: #f0f0f0; /* Cor branca suave */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    font-weight: 300;
+}
+
+/* Destacando as tecnologias */
+#sobre strong {
+    color: #00ffcc; /* Azul neon */
+    font-weight: bold;
+}
+
+/* Efeito de brilho no texto */
+#sobre p:hover {
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    transition: text-shadow 0.3s ease-in-out;
+}
